@@ -17,7 +17,7 @@ L'application contient trois Servlets fonctionnelles bien que rudimentaires :
 
 + *WelcomeServlet (mappé sur **/**)*   => very simple example
 + *RequestExampleServlet (mappé sur **/hello**)* => simple GET example
-+ *AdminServlet (mappé sur **/admin**)* => simple JSP example
++ *DynamicJSPServlet (mappé sur **/admin**)* => simple JSP example
 
 Chaque servlet décrit un aspect différent mais indispensable pour faire une application dynamique.
 
@@ -30,7 +30,7 @@ JSP
 lib
 |__ *.jar (tomcat classes)
 src
-|_ AdminServlet.java
+|_ DynamicJSPServlet.java
 |_ WelcomeServlet.java
 |_ RequestExampleServlet.java
 WEB-INF

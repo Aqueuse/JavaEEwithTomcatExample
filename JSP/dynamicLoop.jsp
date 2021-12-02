@@ -4,12 +4,17 @@
 
 <html>
 <head>
-    <title>Admin Webpage</title>
+    <title>Welcome Webpage</title>
 </head>
 
 <body>
 <h1>Admin webpage</h1>
 
 <p>Hello, there is ${fn:length(usernames)} users</p>
+
+<c:forEach items="${ usernames }" var="item">
+    <p>user name : <c:out value="${ item }" /></p>
+</c:forEach>
+
 </body>
 </html>

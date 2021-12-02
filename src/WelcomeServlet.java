@@ -12,8 +12,6 @@ public class WelcomeServlet extends HttpServlet {
   @Override
   protected void doGet(HttpServletRequest request, HttpServletResponse response)
     throws ServletException, IOException {
-      String message = request.getParameter("message");
-      request.setAttribute("text", message);
       request.getRequestDispatcher("/index.jsp").forward(request, response);
    }
 }

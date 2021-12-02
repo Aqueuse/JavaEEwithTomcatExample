@@ -9,8 +9,10 @@
         </p>
         <p>
             The examples Servlets are : <br>
-                <li>/hello (Get example)</li>
-                <li>/admin (JSP example)</li>
+                <li>/message (Get/Post example)</li>
+                <li>/dynamicJSP (JSP loop example)</li>
+                <li>/rouge (redirect example)</li>
+                <li>/bleue (redirect example)</li>
         </p>
     </body>
 </html>
